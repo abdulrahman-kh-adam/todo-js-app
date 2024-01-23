@@ -88,7 +88,7 @@ body {
     transform: translateX(-50%);
 }
 
-@media (min-width: 768px){
+@media (min-width: 768px) {
     .container .tasks .task:hover {
         cursor: pointer;
         background-color: rgb(206, 206, 206);
