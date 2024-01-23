@@ -26,7 +26,7 @@ submitBut.onclick = function () {
 };
 
 // Click on task
-tasksCont.addEventListener("click", e => {
+tasksCont.addEventListener("mousedown", e => {
     if(e.target.classList.contains("delete")){
         deleteFromLocalStorage(e.target.parentElement.getAttribute("task-id"));
         e.target.parentElement.remove();
