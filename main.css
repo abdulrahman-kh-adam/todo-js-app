@@ -67,13 +67,6 @@ body {
     align-items: center;
 }
 
-
-
-.container .tasks .task:hover {
-    cursor: pointer;
-    background-color: rgb(206, 206, 206);
-}
-
 .container .tasks .task.done {
     opacity: 50%;
     position: relative;
@@ -95,6 +88,13 @@ body {
     transform: translateX(-50%);
 }
 
+@media (max-width: 768px){
+    .container .tasks .task:hover {
+        cursor: pointer;
+        background-color: rgb(206, 206, 206);
+    }
+}
+
 @media (max-width: 767px) {
     .container .form {
         flex-direction: column;
@@ -112,9 +112,6 @@ body {
     .container .tasks .task {
         width: 90%;
         font-size: 20px;
-    }
-    .container .tasks .task:hover {
-        /* NOTHING */
     }
     .container .tasks .task .delete {
         font-size: 10px;
