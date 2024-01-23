@@ -75,7 +75,7 @@ body {
 }
 
 .container .tasks .task.done {
-    opacity: 70%;
+    opacity: 50%;
     position: relative;
 }
 
