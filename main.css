@@ -113,6 +113,9 @@ body {
         width: 90%;
         font-size: 20px;
     }
+    .container .tasks .task:hover {
+        /* NOTHING */
+    }
     .container .tasks .task .delete {
         font-size: 10px;
     }
